@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(137, 238, 244), rgb(133, 73, 236));
+}
+#number,#ConfirmPassword{
+    margin-top: 10px;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100vh;
+    margin-top: 30px;
+    margin-left: 250px;
+    display: block;
+    background-image: url(https://img.freepik.com/free-vector/gray-abstract-wireframe-background_53876-99911.jpg?w=996&t=st=1682873525~exp=1682874125~hmac=0b25cd6b6af4afb3d999ed9049eaf862c246db0a98212ac32e858b7378fa3957);
+}
+
+#heading {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, rgb(137, 238, 244), rgb(133, 73, 236));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.submitButton{
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, rgb(137, 238, 244), rgb(133, 73, 236));
+    width: 100px;
+    margin-left: 450px;
+
+}
+
+label{
+    margin-left: 30px;
+}
+#city,#state,#zip,#checkbox{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
